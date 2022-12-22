@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Open+Sans:wght@400;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+  height: 90vh;
+  font-family: 'Open Sans', sans-serif;
+}
+main img{
+  transition: .3s;
+}
+main img:hover{
+  transform:rotate(30deg)
+}
+main, footer{
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ footer{
+  margin-top: 70px;
+  position: fixed;
+  bottom: 0;
+ }
+footer ul{
+  margin-top: 64px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  padding: 20px;
+  border-top: 1px solid #ECEFF2;
+}
+
+footer ul li{
+  cursor: pointer;
+  transition: .3s;
+
+}
+footer ul li:hover{
+  color: #3F3D56;
+  transform: scale(1.1);
+}
+footer img{
+  width: 190vh
+}
+h1{
+  font-family: 'Dosis', sans-serif;
+  margin-top: 32px;
+}
+
+span{
+  font-weight: bold;
+}
+
+h1 span{
+  color: #EE24FF ;
+}
+main div {
+  color: #828282;
+  margin-top: 16px;
+}
+main div b{
+  color: #3F3D56;
+}
+main div p{
+  margin-top: 32px;
+}
